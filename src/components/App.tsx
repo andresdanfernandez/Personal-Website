@@ -4,6 +4,7 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import { useRef } from "react";
+import "../index.css";
 
 function App() {
 
