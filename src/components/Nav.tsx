@@ -16,11 +16,11 @@ function Nav({ aboutRef, experienceRef, projectsRef, contactRef}: NavProps) {
     }
 
     return (
-        <nav className="navbar flex bg-custom-black text-gray-100 items-center h-16 text-3xl justify-between pl-12">
-            <div className="name border flex">
+        <nav className="navbar flex bg-custom-black text-gray-100 items-center h-14 text-xl justify-between pl-12">
+            <div className="name flex">
                 <p>Andres Fernandez | Personal Website</p>
             </div>
-            <div className="left-nav border flex  gap-9 pr-12">
+            <div className="left-nav flex  gap-9 pr-12">
                 <div>
                     <button onClick={() => scrollToSection(aboutRef)} className="hover:text-gray-400" >
                         <p>About</p>
