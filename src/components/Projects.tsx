@@ -1,6 +1,6 @@
-import { forwardRef } from "react";
+import React, { forwardRef } from "react";
 
-const Projects =  forwardRef<HTMLDivElement>((_, ref) => {
+const Projects =  forwardRef<HTMLDivElement>((props, ref) => {
 
     return (
         <div ref={ref} className="bg-slate-200 mt-4 h-screen flex items-center justify-center text-4xl border">

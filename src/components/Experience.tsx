@@ -2,7 +2,7 @@ import { forwardRef } from "react";
 import AI from "../assets/ai.svg";
 import Brain from "../assets/brain.svg";
 
-const Experience =  forwardRef<HTMLDivElement>((_, ref) => {
+const Experience =  forwardRef<HTMLDivElement>((props, ref) => {
 
     return (
         <div ref={ref} className="h-screen bg-slate-200 mt-4 flex items-center justify-center text-4xl border">
