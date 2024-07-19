@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 
-const Contact =  forwardRef<HTMLDivElement>((_,ref) => {
+const Contact =  forwardRef<HTMLDivElement>((props,ref) => {
 
     return (
         <div ref={ref} className="bg-slate-200 mt-4 h-screen items-center flex justify-center text-6xl border">
