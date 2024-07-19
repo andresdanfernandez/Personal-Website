@@ -8,7 +8,7 @@ const Contact = forwardRef<HTMLDivElement>((_, ref) => {
     <div ref={ref} className="bg-white py-12 px-4 sm:px-6 mt-6 lg:px-8 min-h-screen flex flex-col items-center justify-center">
       <div className="w-full max-w-4xl">
         <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-blue-900 text-center mb-12 underline underline-offset-8">
-          Contact.
+          Contact
         </h1>
         <div className="flex flex-col gap-8 sm:gap-12 items-center">
           <div className="flex items-center gap-4 sm:gap-8">
