@@ -7,8 +7,8 @@ const Experience =  forwardRef<HTMLDivElement>((_, ref) => {
     return (
         <div ref={ref} className="h-screen bg-slate-200 mt-4 flex items-center justify-center text-4xl border">
             <div className="justify-center w-10/12 h-5/6" >
-                <div className="h-20 flex justify-center" >
-                    <h1 className="font-extrabold underline underline-offset-[18px] text-6xl text-blue-900" >Experience.</h1>
+                <div className="h-20  border flex justify-center" >
+                    <h1 className="font-extrabold underline underline-offset-[14px] text-6xl text-blue-900" >Experience.</h1>
                 </div>
                 <div className="flex flex-row justify-between w-full h-5/6" >
 

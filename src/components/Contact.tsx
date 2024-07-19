@@ -1,7 +1,4 @@
 import { forwardRef } from "react";
-import Email from "../assets/email.svg";
-import Phone from "../assets/phone.svg";
-import LinkedIn from "../assets/linkedin.svg";
 
 const Contact =  forwardRef<HTMLDivElement>((_,ref) => {
 
@@ -11,7 +8,7 @@ const Contact =  forwardRef<HTMLDivElement>((_,ref) => {
                 <div className="h-20 flex justify-center" >
                         <h1 className="font-extrabold underline underline-offset-[18px] text-6xl text-blue-900" >Contact.</h1>
                 </div>
-                <div className="flex flex-row w-full h-4/5 mt-5 items-center">
+                <div className="flex flex-row w-full h-4/5 mt-5 items-center" >
                     <div className="h-96 flex flex-col gap-10 w-1/2 justify-center items-center">
                         <img className="ml-auto mr-80" src={Email} alt="Email Icon" width="80px"/>
                         <img className="ml-auto mr-80" src={Phone} alt="Phone Icon" width="80px"/>
