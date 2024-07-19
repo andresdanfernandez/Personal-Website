@@ -31,7 +31,7 @@ const About = forwardRef<HTMLDivElement>((_, ref) => {
                             <img src={Github_Logo} alt="Github Logo" width="70px" />
                             <p className="text-[14px] mt-2 ml-[0.9rem]" >Github</p>
                         </a>
-                        <a className="hover:cursor-pointer" target="_blank" href="https://drive.google.com/file/d/1MgbmJvSejKIxxZIdV2k9Sc3_LnSe-YZ-/view?usp=sharing" >
+                        <a className="hover:cursor-pointer" target="_blank" href="https://drive.google.com/file/d/1Du7vDTlTEpki_4QE-KmReEaysHskeJbH/view?usp=sharing" >
                             <img src={Resume} alt="Resume Icon" width="70px" />
                             <p className="text-[14px] mt-2 ml-2 ">Resume</p>
                         </a>
