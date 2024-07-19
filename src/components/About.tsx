@@ -5,7 +5,7 @@ import Laptop from "../assets/laptop.svg";
 import Github_Logo from "../assets/github_logo.svg";
 import Resume from "../assets/resume.svg";
 
-const About = forwardRef<HTMLDivElement>((props, ref) => {
+const About = forwardRef<HTMLDivElement>((_, ref) => {
 
     return (
         <div ref={ref} className=" bg-slate-200 h-screen flex items-center mt-4 justify-center text-6xl">

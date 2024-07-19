@@ -1,6 +1,9 @@
 import { forwardRef } from "react";
+import Email from "../assets/email.svg";
+import Phone from "../assets/phone.svg";
+import LinkedIn from "../assets/linkedin.svg";
 
-const Contact =  forwardRef<HTMLDivElement>((props,ref) => {
+const Contact =  forwardRef<HTMLDivElement>((_,ref) => {
 
     return (
         <div ref={ref} className="bg-slate-200 mt-4 h-screen items-center flex justify-center text-6xl border">
