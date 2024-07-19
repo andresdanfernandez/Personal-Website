@@ -5,7 +5,7 @@ import LinkedIn from "../assets/linkedin.svg";
 
 const Contact = forwardRef<HTMLDivElement>((_, ref) => {
   return (
-    <div ref={ref} className="bg-slate-200 py-12 px-4 sm:px-6 lg:px-8 min-h-screen flex flex-col items-center justify-center">
+    <div ref={ref} className="bg-white py-12 px-4 sm:px-6 mt-6 lg:px-8 min-h-screen flex flex-col items-center justify-center">
       <div className="w-full max-w-4xl">
         <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-blue-900 text-center mb-12 underline underline-offset-8">
           Contact.

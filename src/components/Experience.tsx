@@ -4,7 +4,7 @@ import Brain from "../assets/brain.svg";
 
 const Experience = forwardRef<HTMLDivElement>((_, ref) => {
   return (
-    <div ref={ref} className="min-h-screen bg-slate-200 py-12 px-4 mt-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center">
+    <div ref={ref} className="min-h-screen bg-white py-12 px-4 mt-6 sm:px-6 lg:px-8 flex flex-col items-center justify-center">
       <div className="w-full max-w-6xl">
         <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-blue-900 text-center mb-8 underline underline-offset-8">
           Experience

@@ -8,7 +8,7 @@ import Resume from "../assets/resume.svg";
 const About = forwardRef<HTMLDivElement>((_, ref) => {
 
     return (
-        <div ref={ref} className=" bg-slate-200 min-h-screen w-full sm:px-6 lg:px-8 flex items-center mt-4 justify-center text-6xl">
+        <div ref={ref} className=" bg-white min-h-screen w-full sm:px-6 lg:px-8 flex items-center mt-6 justify-center text-6xl">
             <div className="container max-w-4xl w-full" >
                 <div className=" flex flex-col items-center"  >
                     <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl underline underline-offset-8 text-blue-900">About Me</h1>
@@ -32,7 +32,7 @@ const About = forwardRef<HTMLDivElement>((_, ref) => {
                             <img className="w-12 sm:w-16" src={Github_Logo} alt="Github Logo" width="70px" />
                             <p className="text-sm mt-2" >Github</p>
                         </a>
-                        <a className="hover:cursor-pointer flex flex-col items-center" target="_blank" href="https://drive.google.com/file/d/1MgbmJvSejKIxxZIdV2k9Sc3_LnSe-YZ-/view?usp=sharing" >
+                        <a className="hover:cursor-pointer flex flex-col items-center" target="_blank" href="https://drive.google.com/file/d/1Du7vDTlTEpki_4QE-KmReEaysHskeJbH/view?usp=sharing" >
                             <img className="w-12 sm:w-16" src={Resume} alt="Resume Icon" width="70px" />
                             <p className="text-sm mt-2">Resume</p>
                         </a>
