@@ -9,7 +9,7 @@ const About = forwardRef<HTMLDivElement>((_, ref) => {
 
     return (
         <div ref={ref} className=" bg-slate-200 h-screen flex items-center mt-4 justify-center text-6xl">
-            <div className="container flex w-10/12 h-3/4 border" >
+            <div className="container flex w-10/12 h-3/4 border justify-center items-center" >
                 <div className="w-3/4 flex flex-col pl-6 pr-6 border mt-6 overflow-auto break-words"  >
                     <h1 className="font-extrabold underline underline-offset-8 text-blue-900" >About Me.</h1>
                     <p className="text-[17px] mt-4 text-black tracking-wide leading-10" >
