@@ -31,11 +31,12 @@ const Projects = forwardRef<HTMLDivElement>((_, ref) => {
 
           
           <div className="bg-gray-100 rounded-lg shadow-md p-6">
-            <h2 className="text-xl sm:text-2xl font-semibold mb-4">Image to ASCII Program</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold mb-4">Weather App</h2>
             <ul className="space-y-2 text-sm sm:text-base">
-              <li>Utilized the PIL library to manipulate images</li>
-              <li>Resized images to maintain aspect ratio and optimize for ASCII art representation</li>
-              <li>Implemented a nested loop that iterates over pixels and converts brightness levels to ASCII characters</li>
+              <li>Developed a responsive weather application using <span className="font-extrabold text-blue-900">Next.js</span> and <span className="font-extrabold text-blue-900">React</span></li>
+              <li>Implemented OpenWeatherMap API to fetch real-time 7-day weather forecasts</li>
+              <li>Used <span className="font-extrabold text-blue-900">TailwindCSS</span> to create a modern UI that is responsive to various device sizes</li>
+              <li>Implemented error handling to provide user feedback for invalid city inputs</li>
             </ul>
           </div>
         </div>
