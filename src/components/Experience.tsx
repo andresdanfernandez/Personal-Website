@@ -17,16 +17,16 @@ const Experience = forwardRef<HTMLDivElement>((_, ref) => {
             </h2>
             <ul className="text-base sm:text-lg list-disc pl-5 space-y-3">
               <li>
-                Developed parts of the front-end of a company website using <span className="font-extrabold text-blue-900">Vue.js</span> and <span className="font-extrabold text-blue-900">Javascript</span>
+                Spearheaded the transition to a new architecture using <span className="font-extrabold text-blue-900">JavaScript</span> and <span className="font-extrabold text-blue-900">Vue.js</span>, while holding weekly detailed planning sessions increasing development speed by <span className="font-extrabold text-blue-900">25%</span>.
               </li>
               <li>
-                Replaced <span className="font-extrabold text-blue-900">Java</span> server-side code that used JSP to <span className="font-extrabold text-blue-900">Javascript</span> for a more component based system
+                Enhanced overall code maintainability and readability resulting in a reduction of future developer confusion and a more efficient development process.
               </li>
               <li>
-                Collaborated with the development team to ensure a smooth transition to the new front-end architecture
+                Boosted front-end performance by leveraging a modern <span className="font-extrabold text-blue-900">JavaScript</span> framework and implementing best practices, leading to a faster and more responsive user experience.
               </li>
               <li>
-                Improved code maintainability and readability saving future developer hours
+                Facilitated a smooth knowledge transfer for other developers by thoroughly documenting the new architecture and its components, ensuring continuity and ease of onboarding.
               </li>
             </ul>
           </div>
