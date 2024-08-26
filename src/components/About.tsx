@@ -32,7 +32,7 @@ const About = forwardRef<HTMLDivElement>((_, ref) => {
                             <img className="w-12 sm:w-16" src={Github_Logo} alt="Github Logo" width="70px" />
                             <p className="text-sm mt-2" >Github</p>
                         </a>
-                        <a className="hover:cursor-pointer flex flex-col items-center" target="_blank" href="https://drive.google.com/file/d/1h-HE4bB_rtJ1WzcKSExQDvp5nI3l40e1/view?usp=sharing" >
+                        <a className="hover:cursor-pointer flex flex-col items-center" target="_blank" href="https://drive.google.com/file/d/1PmdW_6_aggfU6xORms38QRNd9TpHmhWb/view?usp=sharing" >
                             <img className="w-12 sm:w-16" src={Resume} alt="Resume Icon" width="70px" />
                             <p className="text-sm mt-2">Resume</p>
                         </a>
