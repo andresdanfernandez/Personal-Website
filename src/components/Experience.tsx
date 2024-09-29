@@ -13,7 +13,7 @@ const Experience = forwardRef<HTMLDivElement>((_, ref) => {
         <div className="flex flex-col lg:flex-row justify-between w-full space-y-8 lg:space-y-0 lg:space-x-8">
           <div className="w-full lg:w-1/2">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4">
-              Information Tech Intern | Miami-Dade County
+              Software Developer Intern | Miami-Dade County
             </h2>
             <ul className="text-base sm:text-lg list-disc pl-5 space-y-3">
               <li>
