@@ -21,12 +21,6 @@ const About = forwardRef<HTMLDivElement>((_, ref) => {
                         </p>
                 </div>
 
-                <div className="flex justify-center items-center gap-4 mb-6" >
-                    <img className="w-1/3 max-w-[120px]"  src={Lightning} width="180px" alt="Lightning" />
-                    <img className="w-1/5 max-w-[60px]" src={Plus} alt="plus" width="120px" />
-                    <img className="w-1/3 max-w-[120px]" src={Laptop} alt="laptop" width="180px" />
-                </div>
-
                     <div className="flex justify-center text-blue-900 gap-16" >
                         <a className="hover:cursor-pointer flex flex-col items-center" target="_blank" href="https://github.com/andresdanfernandez" >
                             <img className="w-12 sm:w-16" src={Github_Logo} alt="Github Logo" width="70px" />
