@@ -1,7 +1,4 @@
 import { forwardRef } from "react";
-import Lightning from "../assets/lightning.svg";
-import Plus from "../assets/plus.svg";
-import Laptop from "../assets/laptop.svg";
 import Github_Logo from "../assets/github_logo.svg";
 import Resume from "../assets/resume.svg";
 
