@@ -17,7 +17,7 @@ const Experience = forwardRef<HTMLDivElement>((_, ref) => {
         transition={{ duration: 0.8, delay: 0.2 }}
       >
         <motion.h1
-          className="font-extrabold text-4xl sm:text-5xl lg:text-6xl text-blue-900 mb-12 text-center underline"
+          className="font-extrabold text-4xl sm:text-5xl lg:text-6xl text-blue-900 mb-12 text-center underline underline-offset-8"
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.6 }}
